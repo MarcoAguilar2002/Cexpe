@@ -1,0 +1,22 @@
+
+.enlaces .menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: auto; /* Define el ancho del menú */
+}
+
+.enlaces a {
+    background-color: #191794;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px; /* Añade espacio entre los enlaces */
+    width: 400px;
+    text-align: center;
+}
+
+.enlaces a.activo {
+    background-color: red;
+    text-decoration: underline;
+}
